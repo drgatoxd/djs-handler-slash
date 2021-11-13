@@ -149,9 +149,9 @@ module.exports = class ExtendedClient extends Client {
 
 ## 💨 ¡Inicia el proyecto!
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg?width=100)](https://heroku.com/deploy?template=https://github.com/SudhanPlayz/Discord-MusicBot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg?width=100)](https://heroku.com/deploy?template=https://github.com/drgatoxd/djs-handler-slash/)
 
-[![Run on Repl.it](https://repl.it/badge/github/SudhanPlayz/Discord-MusicBot)](https://repl.it/github/SudhanPlayz/Discord-MusicBot)
+[![Run on Repl.it](https://repl.it/badge/github/drgatoxd/djs-handler-slash/)](https://repl.it/github/drgatoxd/djs-handler-slash/)
 
 ---
 
