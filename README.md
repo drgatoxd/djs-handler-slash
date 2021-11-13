@@ -30,50 +30,50 @@ module.exports = {
 	 * @type {import('discord.js').ApplicationCommand}
 	 */
 	data: { // aquí va la información del slash command
-    /**
-     * El nombre del comando
-     * De 1-32 caracteres
-     * @type {string}
-     */
+    		/**
+     		* El nombre del comando
+     		* De 1-32 caracteres
+     		* @type {string}
+     		*/
 		name: 'ping',
 
-    /**
-     * La descripción del comando
-     * No se muestra en los context-menu
-     * De 1-100 caracteres
-     * @type {string}
-     */
+    		/**
+     		* La descripción del comando
+     		* No se muestra en los context-menu
+     		* De 1-100 caracteres
+     		* @type {string}
+     		*/
 		description: '¡Pong! 🏓',
 		
-    /**
-     * El tipo del comando | https://bit.ly/3wFTqUp Las docs
-     * 
-     * CHAT_INPUT: Slash commands
-     * USER: Context-menu al hacer clic derecho a un usuario
-     * MESSAGE: Context-menu al hacer clic derecho a un mensaje
-     * 
-     * @type {import('discord.js').ApplicationCommandType}
-     */
-    type: 'CHAT_INPUT',
+    		/**
+     		* El tipo del comando | https://bit.ly/3wFTqUp Las docs
+     		* 
+     		* CHAT_INPUT: Slash commands
+     		* USER: Context-menu al hacer clic derecho a un usuario
+     		* MESSAGE: Context-menu al hacer clic derecho a un mensaje
+     		* 
+     		* @type {import('discord.js').ApplicationCommandType}
+     		*/
+    		type: 'CHAT_INPUT',
 
-    /**
-     * Define los argumentos del comando. 
-     * Dejar vacío para comandos context-menu
-     * @type {import('discord.js').ApplicationCommandOption[]}
-     */
-	  options: []
+    		/**
+    		 * Define los argumentos del comando. 
+    		 * Dejar vacío para comandos context-menu
+    		 * @type {import('discord.js').ApplicationCommandOption[]}
+    		 */
+		  options: []
 	},
 
 	settings: {
-    /**
-     * Especifíca si el comando es solo para desarrolladores 
-     * @type {boolean}
-     */
+    	/**
+     	 * Especifíca si el comando es solo para desarrolladores 
+    	 * @type {boolean}
+    	 */
 		dev: false
 	},
 
 	/**
-   * Esto es JSdoc, dejalo si usas algun editor con intellisense
+   	 * Esto es JSdoc, dejalo si usas algun editor con intellisense
 	 * @param {import('../../struct/Client')} client
 	 * @param {import('discord.js').CommandInteraction} interaction
 	 */
