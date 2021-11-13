@@ -17,6 +17,7 @@ _Veo que todos ponen esas tarjetitas, así que yo tambien las pongo xd_
 -   [discord.js v13](https://discord.js.org)
 -   [Un bot en Discord Developer Portal](https://discord.com/developers/applications)
 
+*Usa `npm install` para instalar todas las dependencias*
 
 ---
 
